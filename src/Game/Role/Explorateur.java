@@ -11,14 +11,7 @@ public class Explorateur extends Joueur {
     }
 
 
-    /** Methods 
-     * Surchage de la fonction qui gere les deplacements d'un joueur dans la classe joueur
-    @param mouseX coordonnée en x du click
-    @param mouseY coordonnée en y du click
-    @param JX coordonnée en x du joueur
-    @param JY coordonnée en y du joueur
-    @return
-     */
+
     public boolean clicUtile(int mouseX, int mouseY, int JX, int JY) {
         if((mouseX == JX + 1|mouseX == JX - 1)&(mouseY == JY)){
             return true;
