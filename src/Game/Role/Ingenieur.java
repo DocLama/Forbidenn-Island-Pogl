@@ -28,11 +28,7 @@ public class Ingenieur extends Joueur {
     	this.asseche = !this.asseche;
     }
 
-    /**
-       Assecher une case donnée
-      @param c la case à assecher
-      @throws Exception
-     **/
+   
     public void AssecherCase(Case c) throws Exception {
         if(c.getLevel()!=EtatZone.SUBMERGEE ) {
            c.downLevel();         
