@@ -23,10 +23,7 @@ public class Messager extends Joueur {
     	this.j =j;
     }
 
-    /**
-      permet de donner une clé donnée à un joueur
-      @param c la clé à donner
-     **/
+
     public void giveKey( Cle c) {
         if (this.getCoffreFort().hadCle(c)) {
             this.getCoffreFort().retirerCle(c.getElementCle());
